@@ -1,0 +1,12 @@
+:root{
+    /* background-color: brown; */
+}
+
+html{
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    /* overflow: hidden; */
+}

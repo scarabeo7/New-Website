@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Yeseva+One');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between
+}
+
+.links{
+    /* display: inline-block;
+    margin-right: 2rem; */
+    text-decoration: none;
+    font-family: 'Share Tech Mono', monospace;
+    font-size:  12px;
+    color: white;
+}
+
+.links:hover{
+    background-color: orange;
+}
+
+p {
+    margin: 3px 0 3px 0
+}
+
+.skillsContainer {
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+    
+    /* flex-wrap: wrap;   */
+}
+
+#logoName {
+    width: 7vw;
+}
+
+svg {
+    width: 8vw;
+    margin-left: 2%
+}
+
+.menubar{
+    width: 100%;
+    height: 13vh;
+    background-color: rgb(71, 39, 39);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menuList{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin-top: 3rem;
+}
+
+.navItems{
+    display: inline-block;
+    margin-right: 6%;
+    font-size: 20px;
+}
+
+.pageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;    
+    width: 100%;
+    height: 100%;
+}
+
+.image{
+    border-radius: 45%;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -100px;
+}
+
+.intro{
+    display: block;
+    text-align: center;
+    color: rgb(98, 0, 255);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Yeseva One", cursive; 
+     margin-top: 3.5rem;
+}
+
+.introLine{
+    /* margin: 4rem auto; */
+    height: 75vh;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    
+
+}
+
+.industrySkills{
+    display: flex;
+    justify-content: center;
+    color: darkgreen;
+    font-size: 20px;
+}
+
+.twitter{
+    position: relative;
+    text-decoration: none;
+    background: white;
+    color: #55ACEE;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    justify-self: flex-end
+}
+
+
+@media screen and (min-width: 320px) {
+    #logoName {
+        width:200vh;
+    }
+
+    svg {
+        width: 80%;
+        margin-left: 2%
+    }
+
+    .introLine{
+        font-size: 19px;
+        height: 97vh;
+    }
+
+    .industrySkills{
+        font-size: 17px
+    }
+
+    .menuList{
+        margin-top: 2rem
+    }
+
+    .links{
+        font-size: 15px
+    }
+
+    html{
+        width: 129%
+    }
+
+    .skillsContainer{
+        font-size: 30px;
+    }
+    
+}
+
+@media screen and (min-width: 360px) {
+    
+    .industrySkills{
+        font-size: 19px
+    }
+
+    .skillsContainer{
+        font-size: 40px;
+    }
+
+
+    #aboutMe{
+        height: 72vh;
+    }
+
+    #projects{
+        height: 72vh
+    }
+    
+}
+
+
+@media screen and (min-width: 375px) {
+   
+
+    .introLine{
+        font-size: 20px;
+        height: 74vh;
+    }
+
+    .menuList{
+        margin-top: 2rem
+    }
+
+    .links{
+        font-size: 13px;
+    }
+
+    html{
+        width: 100%;
+    }
+
+    .skillsContainer{
+        font-size: 25px
+    }
+
+}
+
+@media screen and (min-width: 400px){
+    .introLine{
+        height: 73vh;
+    }
+
+    html{
+        width: 100%
+    }
+}
+
+
+@media screen and (min-width: 600px) {
+    .intro{
+        font-size: 50px;
+        font-weight: normal;
+        /* font-family: "Yeseva One", cursive; */
+    
+    }
+
+}
+
+
+@media screen and (min-width: 768px) {
+    .introLine{
+        font-size: 34px;
+        height: 75vh
+    }
+
+    .industrySkills{
+        font-size: 29px
+    }
+
+    .links{
+        font-size: 20px
+    }
+
+    .skillsContainer{
+        font-size: 40px
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .introLine{
+        font-size: 45px;
+        height: 79vh;
+    }
+
+    .links{
+        font-size: 25px
+    }
+
+    .menuList{
+        margin-top: 3rem
+    }
+
+    .skillsContainer{
+        font-size: 55px
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    
+    .introLine {
+        font-size: 42px;
+        height: 74vh;
+        /* flex-wrap: wrap;   */
+    }
+
+    .menuList{
+        /* font-size: 25px; */
+        margin-top: 3rem
+    }
+
+    .links{
+        font-size: 18px;
+    }
+
+    h2{
+        font-size: 1em;
+    }
+
+    .aboutMe{
+        font-size: 40px;
+    }
+
+    .industrySkills{
+        font-size: 32px;
+    }
+
+    p{
+        margin: 3px 234px 3px 193px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 25px;
+       
+    }
+    
+}
+
+@media screen and (min-width: 1440px) {
+    .introLine{
+        font-size: 45px;
+    }
+
+    .industrySkills{
+        font-size: 31px;
+    }
+
+    .aboutMe{
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+
+    .links{
+        font-size: 15px
+    }
+
+    
+p{
+    margin: 3px 234px 3px 193px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+   
+}
+
+h2{
+    align-self: center;
+    color: orange;
+}
+
+
+
+}
+
+#logoName{
+    width: 300px;
+}
+
+p{
+    /* margin: 3px 234px 3px 193px; */
+    font-family: 'Open Sans Condensed', sans-serif;
+    /* font-size: 25px; */
+   
+}
+
+h2{
+    align-self: center;
+    color: orange;
+}
